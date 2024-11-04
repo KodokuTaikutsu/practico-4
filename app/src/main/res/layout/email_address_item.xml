@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- EditText for the email address -->
+    <EditText
+        android:id="@+id/emailAddressEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <!-- Spinner for selecting the label -->
+    <Spinner
+        android:id="@+id/emailLabelSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Button to remove the email field -->
+    <Button
+        android:id="@+id/removeEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove" />
+</LinearLayout>

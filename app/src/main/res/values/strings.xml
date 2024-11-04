@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practico 4</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string-array name="phone_labels">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+    </string-array>
+
+</resources>
